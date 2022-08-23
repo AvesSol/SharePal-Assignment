@@ -6,7 +6,7 @@ import shear from "../img/shear.webp"
 const Items = ({item}) => {
   return (
     // Start ItemBox
-    <div className="item w-[20rem] max-h-[18rem] mx-3 min-h-[19rem] border-[1px] my-2 rounded-md ">
+    <div className="item max-w-[20rem] max-h-[18rem] mx-3 min-h-[19rem] border-[1px] my-2 rounded-md ">
       {/* Start top  */}
       <div className="top h-[80%]">
         <img src={item.img || "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"}  alt="" className="itemImg rounded-t-md  h-full w-full object-cover" />
