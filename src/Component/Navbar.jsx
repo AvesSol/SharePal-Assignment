@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       {/* // NavBarMainCon Start  */}
-      <div className="Navbar break-words bg-[#091747] min:h-[3rem] pb-1.5 flex items-center justify-center flex-col">
+      <div className="Navbar sticky top-0 break-words bg-[#091747] min:h-[3rem] pb-1.5 flex items-center justify-center flex-col">
         {/* // Start topContainer  */}
         <div className="top hidden md:flex py-2 justify-between items-center w-full h-1/2  bg-white">
           {/* Top Content Start  */}
